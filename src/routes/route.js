@@ -5,7 +5,7 @@ const Feeds = lazy(() => import("../shared/Feeds"));
 const Notifications = lazy(() => import("../pages/Notifications"));
 const Profiles = lazy(() => import("../pages/Profiles"));
 const Messages = lazy(() => import("../pages/Messages"));
-const SignUp = lazy(() => import("../pages/SignUp"));
+// const SignUp = lazy(() => import("../pages/SignUp"));
 
 export const allRoutes = [
   {
