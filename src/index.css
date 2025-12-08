@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: url("calendar-icon.svg") no-repeat center;
+  filter: invert(1); change icon color
+  cursor: pointer;
+} */
