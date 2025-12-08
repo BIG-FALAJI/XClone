@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import logo from "../../assets/images/Logo.png";
-import Button from "../../Shared/Button";
+import Button from "../../shared";
 import { FcGoogle } from "react-icons/fc";
 import { BsApple } from "react-icons/bs";
 import Modal from "../../shared/Modal";
