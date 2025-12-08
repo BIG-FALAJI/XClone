@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { IoArrowBack } from "react-icons/io5";
 import { MdCalendarToday } from "react-icons/md";
 import { useNavigate } from "react-router";
-import Button from "../../Shared/Button";
+import Button from "../../Shared";
 import Post from "../Posts";
 import Replies from "../Replies";
 import Media from "../Media";

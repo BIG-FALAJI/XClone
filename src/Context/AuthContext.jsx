@@ -6,7 +6,7 @@ const AuthContext = createContext();
 
 const AuthProvider = ({ children }) => {
   const dispatch = useDispatch();
-  const [user, setUser] = useState(null);
+  const [user] = useState(null);
   const { isAuthenticated } = useSelector((state) => state.account);
   const signin = (form) => {
     dispatch(login(form));

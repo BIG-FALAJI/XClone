@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import logo from "../../assets/images/Logo.png";
 import Input from "../../shared/Input";
-import Button from "../../Shared/Button";
+import Button from "../../Shared";
 import { MdClose } from "react-icons/md";
 import { useDispatch, useSelector } from "react-redux";
 import { login } from "../../features/accountSlice";
