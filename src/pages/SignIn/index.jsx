@@ -1,13 +1,14 @@
 import React, { useRef, useEffect, useState } from "react";
 import logo from "../../assets/images/Logo.png";
 import Input from "../../shared/Input";
-import Button from "../../Shared";
+import Button from "../../shared";
 import { MdClose } from "react-icons/md";
 import { useDispatch, useSelector } from "react-redux";
 import { login } from "../../features/accountSlice";
 
 const SignIn = ({ handleIsOpen }) => {
   const account = useSelector((store) => store.account);
+  console.log(account);
   const dispatch = useDispatch();
   // console.log(dispatch);
 
