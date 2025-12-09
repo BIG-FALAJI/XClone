@@ -1,7 +1,7 @@
 import { FaRegImage, FaRegSmile } from "react-icons/fa";
 import { MdOutlineGifBox } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
-import Button from "../../shared";
+import Button from "../../Shared/Button";
 
 const Feeds = () => {
   const tweets = [

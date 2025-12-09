@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import { MdClose } from "react-icons/md";
 import logo from "../../assets/images/Logo.png";
-import Input from "../../shared/Input";
-import Button from "../../shared";
+import Input from "../../Shared/Input";
+import Button from "../../Shared/Button";
 
 const CreateAccount = ({ handleIsOpen }) => {
   const inputRef = useRef();

@@ -1,22 +1,21 @@
-const tweets = [
-  {
-    id: 1,
-    text: "Just launched my X clone UI — it’s looking 🔥🔥🔥",
-    time: "2h",
-  },
-  {
-    id: 2,
-    text: "Learning React hooks deeply changed how I build UIs ⚛️",
-    time: "1d",
-  },
-  {
-    id: 3,
-    text: "Frontend + creativity = limitless possibilities ✨",
-    time: "3d",
-  },
-];
-
 const Posts = () => {
+  const tweets = [
+    {
+      id: 1,
+      text: "Just launched my X clone UI — it’s looking 🔥🔥🔥",
+      time: "2h",
+    },
+    {
+      id: 2,
+      text: "Learning React hooks deeply changed how I build UIs ⚛️",
+      time: "1d",
+    },
+    {
+      id: 3,
+      text: "Frontend + creativity = limitless possibilities ✨",
+      time: "3d",
+    },
+  ];
   return (
     <div>
       {tweets.map((tweet) => (

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { IoArrowBack } from "react-icons/io5";
 // import { toast } from "react-toastify";
 
 const Replies = () => {

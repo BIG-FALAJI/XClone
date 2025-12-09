@@ -1,7 +1,6 @@
-import Sidebar from "../../shared/SideBar";
-
-import RightSidebar from "../../shared/RightSideBar";
-import BottomBar from "../../shared/BottomBar";
+import Sidebar from "../../Shared/SideBar";
+import RightSidebar from "../../Shared/RightSideBar";
+import BottomBar from "../../Shared/BottomBar";
 // import { useNavigate } from "react-router";
 import { useSelector } from "react-redux";
 import SignUp from "../SignUp";

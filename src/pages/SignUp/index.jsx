@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import logo from "../../assets/images/Logo.png";
-import Button from "../../shared";
+import Button from "../../Shared/Button";
 import { FcGoogle } from "react-icons/fc";
 import { BsApple } from "react-icons/bs";
-import Modal from "../../shared/Modal";
+import Modal from "../../Shared/Modal";
 import CreateAccount from "../CreateAccount";
 import SignIn from "../SignIn";
 
