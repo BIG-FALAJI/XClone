@@ -1,5 +1,5 @@
-import Sidebar from "../../Shared/SideBar";
-import RightSidebar from "../../Shared/RightSideBar";
+import SideBar from "../../Shared/SideBar";
+import RightSideBar from "../../Shared/RightSideBar";
 import BottomBar from "../../Shared/BottomBar";
 // import { useNavigate } from "react-router";
 import { useSelector } from "react-redux";
@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
     <div className="bg-black text-white min-h-screen flex justify-center">
       {/* Sidebar (fixed) */}
       <div className="hidden sm:block fixed left-0 top-0 h-full border-r border-gray-800 bg-black">
-        <Sidebar />
+        <SideBar />
       </div>
 
       {/* Feed Section */}
@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
 
       {/* Right Sidebar */}
       <div className="hidden lg:block w-[250px] border-l border-gray-800">
-        <RightSidebar />
+        <RightSideBar />
       </div>
 
       {/* Bottom Bar */}
